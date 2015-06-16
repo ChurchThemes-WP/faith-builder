@@ -44,7 +44,7 @@
       <div class="fb-sermons--sermon">
 
         <?php if ( $instance['show_image'] && has_post_thumbnail() ) : ?>
-          <a class="fb-events--event-image" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+          <a class="fb-sermons--sermon-image" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
             <?php the_post_thumbnail( 'ctc-thumb-small' ); ?>
           </a>
         <?php endif; ?>

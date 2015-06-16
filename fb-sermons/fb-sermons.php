@@ -10,9 +10,11 @@ class FBSermons extends FLBuilderModule {
             'category'      => __( FB_MODULES_SECTION, 'fl-builder' ),
             'dir'           => FB_MODULES_DIR . 'fb-sermons/',
             'url'           => FB_MODULES_URL . 'fb-sermons/',
-            'editor_export' => true, // Defaults to true and can be omitted.
-            'enabled'       => true, // Defaults to true and can be omitted.
+            'editor_export' => true,
+            'enabled'       => true,
         ));
+
+        $this->add_css('fb-sermons', $this->url . 'includes/style.css');
     }
 }
 
