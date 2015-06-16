@@ -1,0 +1,26 @@
+.fb-events {
+
+}
+
+.fb-events--event {
+  overflow: hidden;
+  padding-bottom: 1.5em;
+  padding-bottom: 1.5rem;
+}
+
+.fb-events--event + .fb-events--event {
+  padding-top: 1.5em;
+  border-top: 1px solid #efefef;
+}
+
+.fb-events--event-image {
+  float: right;
+  width: 33.333333333%;
+  margin-left: 1.5em;
+  margin-left: 1.5rem;
+}
+
+.fb-events--event-excerpt p {
+  font-size: 1em;
+  font-size: 1rem;
+}

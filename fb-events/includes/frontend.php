@@ -39,21 +39,23 @@
         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
       </h2>
 
-      <ul class="fb-events--event-meta">
+      <div class="fb-events--event-meta">
 
         <?php if ( $instance['show_date'] == 'yes' && $date ) : ?>
-          <li class="fb-events--event-date">
+          <span class="fb-events--event-date">
+            <i class="genericon genericon-month"></i>
             <?php echo esc_html( $date ); ?>
-          </li>
+          </span>
         <?php endif; ?>
 
         <?php if ( $instance['show_time'] == 'yes' && $time ) : ?>
-          <li class="fb-events--event-time">
+          <span class="fb-events--event-time">
+            <i class="genericon genericon-time"></i>
             <?php echo esc_html( $time ); ?>
-          </li>
+          </span>
         <?php endif; ?>
 
-      </ul>
+      </div>
 
       <?php if ( get_the_excerpt() && $instance['show_excerpt'] == 'yes' ): ?>
         <div class="fb-events--event-excerpt">

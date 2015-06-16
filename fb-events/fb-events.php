@@ -10,9 +10,11 @@ class FBEvents extends FLBuilderModule {
             'category'      => __( FB_MODULES_SECTION, 'fl-builder' ),
             'dir'           => FB_MODULES_DIR . 'fb-events/',
             'url'           => FB_MODULES_URL . 'fb-events/',
-            'editor_export' => true, // Defaults to true and can be omitted.
-            'enabled'       => true, // Defaults to true and can be omitted.
+            'editor_export' => true,
+            'enabled'       => true,
         ));
+
+        $this->add_css('fb-events', $this->url . 'includes/style.css');
     }
 }
 
