@@ -13,7 +13,14 @@ define( 'FB_MODULES_SECTION', 'Faithmade Modules' );
 
 function fb_module_load() {
 	if ( class_exists( 'FLBuilder' ) ) {
-		include( FB_MODULES_DIR . 'fb-events/fb-events.php' );
+
+    $dirs = array_filter(glob(dirname(__FILE__) . '/fb-*' , GLOB_ONLYDIR));
+
+    foreach ( $dirs as $module ) {
+      $module = substr($module, strrpos($module, '/') + 1);
+
+      include( FB_MODULES_DIR . $module . '/' . $module . '.php' );
+    }
 	}
 }
 add_action( 'init', 'fb_module_load' );
