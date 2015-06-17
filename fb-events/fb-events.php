@@ -29,10 +29,19 @@ FLBuilder::register_module( 'FBEvents', array(
                         'label'         => __( 'Title', 'fl-builder' ),
                         'default'       => __( 'Events', 'fl-builder' ),
                     ),
+                    'layout' => array(
+                        'type'          => 'select',
+                        'label'         => __( 'Layout', 'fl-builder' ),
+                        'default'       => 'list',
+                        'options'       => array(
+                            'list'      => __( 'List', 'fl-builder' ),
+                            'grid'      => __( 'Grid', 'fl-builder' )
+                        )
+                    ),
                     'which_events' => array(
                         'type'          => 'select',
                         'label'         => __( 'Which Events?', 'fl-builder' ),
-                        'default'       => 'option-upcoming',
+                        'default'       => 'upcoming',
                         'options'       => array(
                             'upcoming'      => __( 'Upcoming', 'fl-builder' ),
                             'past'      => __( 'Past', 'fl-builder' )
@@ -58,7 +67,7 @@ FLBuilder::register_module( 'FBEvents', array(
                     'show_image' => array(
                         'type'          => 'select',
                         'label'         => __( 'Show Image', 'fl-builder' ),
-                        'default'       => 'option-yes',
+                        'default'       => 'yes',
                         'options'       => array(
                             'yes'      => __( 'Yes', 'fl-builder' ),
                             'no'      => __( 'No', 'fl-builder' )
@@ -67,7 +76,7 @@ FLBuilder::register_module( 'FBEvents', array(
                     'show_date' => array(
                         'type'          => 'select',
                         'label'         => __( 'Show Date', 'fl-builder' ),
-                        'default'       => 'option-yes',
+                        'default'       => 'yes',
                         'options'       => array(
                             'yes'      => __( 'Yes', 'fl-builder' ),
                             'no'      => __( 'No', 'fl-builder' )
@@ -76,7 +85,7 @@ FLBuilder::register_module( 'FBEvents', array(
                     'show_time' => array(
                         'type'          => 'select',
                         'label'         => __( 'Show Time', 'fl-builder' ),
-                        'default'       => 'option-yes',
+                        'default'       => 'yes',
                         'options'       => array(
                             'yes'      => __( 'Yes', 'fl-builder' ),
                             'no'      => __( 'No', 'fl-builder' )
@@ -85,7 +94,7 @@ FLBuilder::register_module( 'FBEvents', array(
                     'show_excerpt' => array(
                         'type'          => 'select',
                         'label'         => __( 'Show Excerpt', 'fl-builder' ),
-                        'default'       => 'option-yes',
+                        'default'       => 'yes',
                         'options'       => array(
                             'yes'      => __( 'Yes', 'fl-builder' ),
                             'no'      => __( 'No', 'fl-builder' )

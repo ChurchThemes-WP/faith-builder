@@ -1,4 +1,4 @@
-<div class="fb-events">
+<div class="fb-events fb-events--layout-<?php echo $settings->layout; ?>">
   <?php
 
     global $post;
