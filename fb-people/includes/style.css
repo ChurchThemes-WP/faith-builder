@@ -1,0 +1,75 @@
+.fb-people {
+
+}
+
+.fb-people--person {
+  overflow: hidden;
+  padding-bottom: 1.5em;
+  padding-bottom: 1.5rem;
+}
+
+.fb-people--layout-list .fb-people--person + .fb-people--person {
+  padding-top: 1.5em;
+  border-top: 1px solid #efefef;
+}
+
+.fb-people--layout-list .fb-people--person-photo {
+  float: left;
+  width: 40%;
+  padding-right: 1.5em;
+  padding-right: 1.5rem;
+}
+
+.fb-people--person-name {
+  margin-bottom: .5em;
+  margin-bottom: .5rem;
+}
+
+.fb-people--person-meta {
+  margin-bottom: .5em;
+  margin-bottom: .5rem;
+}
+
+.fb-people--layout-list .fb-people--person-name,
+.fb-people--layout-list .fb-people--person-meta,
+.fb-people--layout-list .fb-people--person-excerpt {
+  float: right;
+  width: 60%;
+}
+
+.fb-people--person-excerpt p {
+  font-size: 1em;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.fb-people--person-excerpt p + p {
+  margin-top: 1em;
+  margin-top: 1rem;
+}
+
+.fb-people--layout-grid .fb-people--person {
+  float: left;
+  width: 50%;
+}
+
+.fb-people--layout-grid .fb-people--person-photo {
+  display: block;
+  margin-bottom: .5em;
+  margin-bottom: .5rem;
+}
+
+.fb-people--layout-grid .fb-people--person:nth-child(even) {
+  padding-right: 1em;
+  padding-right: 1rem;
+  clear: left;
+}
+
+.fb-people--layout-grid .fb-people--person:nth-child(odd) {
+  padding-left: 1em;
+  padding-left: 1rem;
+}
+
+.fb-people--layout-grid .fb-people--person-meta > * {
+  display: block;
+}
