@@ -6,7 +6,7 @@ class FBSermons extends FLBuilderModule {
     {
         parent::__construct(array(
             'name'          => __( 'Sermons', 'fl-builder' ),
-            'description'   => __( 'ChurchThemes sermons', 'fl-builder' ),
+            'description'   => __( 'ChurchThemes Sermons', 'fl-builder' ),
             'category'      => __( FB_MODULES_SECTION, 'fl-builder' ),
             'dir'           => FB_MODULES_DIR . 'fb-sermons/',
             'url'           => FB_MODULES_URL . 'fb-sermons/',
