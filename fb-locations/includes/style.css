@@ -1,0 +1,86 @@
+.fb-locations {
+
+}
+
+.fb-locations--location {
+  overflow: hidden;
+  padding-bottom: 1.5em;
+  padding-bottom: 1.5rem;
+}
+
+.fb-locations--location-map {
+  height: 0;
+  padding-bottom: 66.666666666%;
+}
+
+.fb-locations--location-map-embed {
+  height: 100%;
+}
+
+.fb-locations--layout-list .fb-locations--location + .fb-locations--location {
+  padding-top: 1.5em;
+  border-top: 1px solid #efefef;
+}
+
+.fb-locations--layout-list .fb-locations--location-image,
+.fb-locations--layout-list .fb-locations--location-map {
+  float: left;
+  width: 40%;
+  padding-right: 1.5em;
+  padding-right: 1.5rem;
+}
+
+.fb-locations--location-name {
+  margin-bottom: .5em;
+  margin-bottom: .5rem;
+}
+
+.fb-locations--location-meta {
+  margin-bottom: .5em;
+  margin-bottom: .5rem;
+}
+
+.fb-locations--layout-list .fb-locations--location-name,
+.fb-locations--layout-list .fb-locations--location-meta,
+.fb-locations--layout-list .fb-locations--location-excerpt {
+  float: right;
+  width: 60%;
+}
+
+.fb-locations--location-excerpt p {
+  font-size: 1em;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.fb-locations--location-excerpt p + p {
+  margin-top: 1em;
+  margin-top: 1rem;
+}
+
+.fb-locations--layout-grid .fb-locations--location {
+  float: left;
+  width: 50%;
+}
+
+.fb-locations--layout-grid .fb-locations--location-image,
+.fb-locations--layout-grid .fb-locations--location-map {
+  display: block;
+  margin-bottom: .5em;
+  margin-bottom: .5rem;
+}
+
+.fb-locations--layout-grid .fb-locations--location:nth-child(even) {
+  padding-right: 1em;
+  padding-right: 1rem;
+  clear: left;
+}
+
+.fb-locations--layout-grid .fb-locations--location:nth-child(odd) {
+  padding-left: 1em;
+  padding-left: 1rem;
+}
+
+.fb-locations--layout-grid .fb-locations--location-meta > * {
+  display: block;
+}
