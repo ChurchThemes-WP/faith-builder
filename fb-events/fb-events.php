@@ -6,7 +6,7 @@ class FBEvents extends FLBuilderModule {
     {
         parent::__construct(array(
             'name'          => __( 'Events', 'fl-builder' ),
-            'description'   => __( 'A totally awesome module!', 'fl-builder' ),
+            'description'   => __( 'ChurchThemes Events', 'fl-builder' ),
             'category'      => __( FB_MODULES_SECTION, 'fl-builder' ),
             'dir'           => FB_MODULES_DIR . 'fb-events/',
             'url'           => FB_MODULES_URL . 'fb-events/',
@@ -19,7 +19,7 @@ class FBEvents extends FLBuilderModule {
 }
 
 FLBuilder::register_module( 'FBEvents', array(
-    'my-tab-1'      => array(
+    'general'      => array(
         'title'         => __( 'General', 'fl-builder' ),
         'sections'      => array(
             'fb-events'  => array(
@@ -104,4 +104,4 @@ FLBuilder::register_module( 'FBEvents', array(
             )
         )
     )
-) );
+));
