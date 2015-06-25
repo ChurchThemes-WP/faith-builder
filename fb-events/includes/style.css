@@ -54,3 +54,8 @@
   padding-left: 1em;
   padding-left: 1rem;
 }
+
+a.fb-events--view-all {
+  clear: left;
+  float: left;
+}

@@ -70,6 +70,12 @@
     // End Loop
     endforeach;
 
+    ?>
+
+    <a href="<?php echo get_post_type_archive_link( 'ctc_event' ); ?>" class="button fb-events--view-all">View All Upcoming Events</a>
+
+    <?php
+
     // No items found
     if ( empty( $posts ) ) {
 
