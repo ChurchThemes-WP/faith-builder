@@ -1,0 +1,8 @@
+{
+  "name": "faithmade/faith-builder",
+  "type": "wordpress-plugin",
+  "description": "Custom modules and configuration for the Beaver Builder implementation for Faithmade",
+  "require": {
+    "composer/installers": "v1.0.21"
+  }
+}
