@@ -8,9 +8,9 @@
   padding-bottom: 1.5rem;
 }
 
-.fb-locations--location-map {
-  height: 0;
-  padding-bottom: 66.666666666%;
+.fb-locations--location-map iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .fb-locations--location-map-embed {
@@ -24,10 +24,37 @@
 
 .fb-locations--layout-list .fb-locations--location-image,
 .fb-locations--layout-list .fb-locations--location-map {
+  float: right;
+  width: 35%;
+  padding-left: 1.5em;
+  padding-left: 1.5rem;
+}
+
+.fb-locations--layout-list .fb-locations--location-image {
   float: left;
-  width: 40%;
-  padding-right: 1.5em;
-  padding-right: 1.5rem;
+  width: 20%;
+  padding: 0;
+  padding-right: 1em;
+  padding-right: 1rem;
+  overflow: hidden;
+  margin-bottom: 1em;
+  margin-bottom: 1rem;
+}
+
+.fb-locations--layout-list .fb-locations--location-image img {
+  width: 100%;
+  border-radius: 4px;
+  height: auto;
+}
+
+.fb-locations--layout-list .fb-locations--location-map .button {
+  width: 100%;
+}
+
+.fb-locations--layout-list .fb-locations--location-map iframe {
+  height: 220px;
+  margin-bottom: .5em;
+  margin-bottom: .5rem;
 }
 
 .fb-locations--location-name {
@@ -43,8 +70,13 @@
 .fb-locations--layout-list .fb-locations--location-name,
 .fb-locations--layout-list .fb-locations--location-meta,
 .fb-locations--layout-list .fb-locations--location-excerpt {
-  float: right;
-  width: 60%;
+
+}
+
+.fb-locations--location-excerpt {
+  margin-bottom: 1em;
+  margin-bottom: 1rem;
+  clear: left;
 }
 
 .fb-locations--location-excerpt p {

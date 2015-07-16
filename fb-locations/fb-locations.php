@@ -117,6 +117,15 @@ FLBuilder::register_module( 'FBLocations', array(
                             '1'      => __( 'Yes', 'fl-builder' ),
                             '0'      => __( 'No', 'fl-builder' )
                         )
+                    ),
+                    'show_excerpt' => array(
+                        'type'          => 'select',
+                        'label'         => __( 'Show excerpt', 'fl-builder' ),
+                        'default'       => '0',
+                        'options'       => array(
+                            '1'      => __( 'Yes', 'fl-builder' ),
+                            '0'      => __( 'No', 'fl-builder' )
+                        )
                     )
                 )
             )
