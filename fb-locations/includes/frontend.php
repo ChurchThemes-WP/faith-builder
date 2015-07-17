@@ -38,7 +38,7 @@
           <div class="fb-locations--location-map">
             <iframe class="fb-locations--location-map-embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?q=<?php echo urlencode( $ctc_location_address ); ?>&output=embed"></iframe>
             <?php if ( $instance['show_address'] && $ctc_location_directions_url ) : ?>
-              <a href="<?php echo $ctc_location_directions_url; ?>" class="button">Get Directions</a>
+              <a href="<?php echo $ctc_location_directions_url; ?>" target="_blank" class="button">Get Directions</a>
             <?php endif; ?>
           </div>
         <?php endif; ?>
