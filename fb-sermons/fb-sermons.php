@@ -100,7 +100,7 @@ FLBuilder::register_module( 'FBSermons', array(
                     'show_image' => array(
                         'type'          => 'select',
                         'label'         => __( 'Show image', 'fl-builder' ),
-                        'default'       => '1',
+                        'default'       => '0',
                         'options'       => array(
                             '1'      => __( 'Yes', 'fl-builder' ),
                             '0'      => __( 'No', 'fl-builder' )
@@ -163,7 +163,7 @@ FLBuilder::register_module( 'FBSermons', array(
                     'show_excerpt' => array(
                         'type'          => 'select',
                         'label'         => __( 'Show excerpt', 'fl-builder' ),
-                        'default'       => '0',
+                        'default'       => '1',
                         'options'       => array(
                             '1'      => __( 'Yes', 'fl-builder' ),
                             '0'      => __( 'No', 'fl-builder' )
