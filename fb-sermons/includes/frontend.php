@@ -54,6 +54,13 @@
         </h2>
 
         <div class="fb-sermons--sermon-meta">
+          <?php if ( $instance['show_date'] ) : ?>
+          <span>
+            <i class="genericon genericon-time"></i>
+            <?php echo rock_posted_on(); ?>
+          </span>
+          <?php endif; ?>
+
           <?php if ( $instance['show_topic'] && $ctc_sermon_topic ) : ?>
           <span>
             <i class="genericon genericon-category"></i>
