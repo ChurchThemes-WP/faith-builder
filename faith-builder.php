@@ -9,7 +9,7 @@
  */
 define( 'FB_MODULES_DIR', plugin_dir_path( __FILE__ ) );
 define( 'FB_MODULES_URL', plugins_url( '/', __FILE__ ) );
-define( 'FB_MODULES_SECTION', 'Faithmade Modules' );
+define( 'FB_MODULES_SECTION', 'Content Modules' );
 
 function fb_module_load() {
 	if ( class_exists( 'FLBuilder' ) ) {
