@@ -1,29 +1,25 @@
-.fb-sermons {
-
-}
-
 .fb-sermons--sermon {
-  overflow: hidden;
-  padding-bottom: 1.5em;
-  padding-bottom: 1.5rem;
+	overflow: hidden;
+	padding-bottom: 1.5em;
+	padding-bottom: 1.5rem;
 }
 
 .fb-sermons--sermon + .fb-sermons--sermon {
-  padding-top: 1.5em;
-  border-top: 1px solid #efefef;
+	padding-top: 1.5em;
+	border-top: 1px solid #efefef;
 }
 
 .fb-sermons--sermon-image {
-  float: right;
-  width: 33.333333333%;
-  margin-left: 1.5em;
-  margin-left: 1.5rem;
+ 	float: right;
+	width: 33.333333333%;
+	margin-left: 1.5em;
+	margin-left: 1.5rem;
 }
 
 .fb-sermons--sermon-excerpt p {
-  font-size: 1em;
-  font-size: 1rem;
+	font-size: 1em;
+	font-size: 1rem;
 }
 .fb-sermons--sermon-title {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
